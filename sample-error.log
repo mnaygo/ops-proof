@@ -1,0 +1,7 @@
+2026/10/18 09:00:01 [error] 101#101: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 203.0.113.8, request: "GET /api/status?access_token=demo-private-token HTTP/1.1", upstream: "http://127.0.0.1:3000/api/status?access_token=demo-private-token"
+2026/10/18 09:00:03 [error] 101#101: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 203.0.113.9, request: "GET /health HTTP/1.1", upstream: "http://127.0.0.1:3000/health"
+2026/10/18 09:01:00 [error] 101#101: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, request: "POST /api/report HTTP/1.1"
+2026/10/18 09:02:00 [crit] 101#101: *4 pwrite() failed (28: No space left on device) while writing to client
+2026/10/18 09:03:00 [error] 101#101: *5 open() "/srv/demo/static/logo.svg" failed (13: Permission denied)
+2026/10/18 09:04:00 [error] 101#101: *6 upstream SSL certificate verify error: (10:certificate has expired) while SSL handshaking to upstream
+2026/10/18 09:05:00 [notice] 101#101: signal process started
