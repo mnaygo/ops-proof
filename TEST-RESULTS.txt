@@ -1,0 +1,17 @@
+test_cli_keeps_source_and_existing_report_unchanged (test_triage.TriageTests.test_cli_keeps_source_and_existing_report_unchanged) ... ok
+test_connect_and_read_timeout_are_separate (test_triage.TriageTests.test_connect_and_read_timeout_are_separate) ... ok
+test_does_not_classify_user_text_as_a_refused_connection (test_triage.TriageTests.test_does_not_classify_user_text_as_a_refused_connection) ... ok
+test_evidence_is_bounded_but_counts_remain_complete (test_triage.TriageTests.test_evidence_is_bounded_but_counts_remain_complete) ... ok
+test_private_key_redaction_preserves_line_count (test_triage.TriageTests.test_private_key_redaction_preserves_line_count) ... ok
+test_quoted_secrets_are_redacted (test_triage.TriageTests.test_quoted_secrets_are_redacted) ... ok
+test_redacts_common_secrets (test_triage.TriageTests.test_redacts_common_secrets) ... ok
+test_reports_never_include_raw_sample_token (test_triage.TriageTests.test_reports_never_include_raw_sample_token) ... ok
+test_request_contents_cannot_create_a_false_diagnosis (test_triage.TriageTests.test_request_contents_cannot_create_a_false_diagnosis) ... ok
+test_sample_counts_and_evidence (test_triage.TriageTests.test_sample_counts_and_evidence) ... ok
+test_tls_error_is_not_assumed_to_be_public_certificate (test_triage.TriageTests.test_tls_error_is_not_assumed_to_be_public_certificate) ... ok
+test_unknown_is_not_healthy (test_triage.TriageTests.test_unknown_is_not_healthy) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.255s
+
+OK
